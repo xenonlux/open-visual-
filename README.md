@@ -9,7 +9,7 @@ AetherForge is a standalone, production-ready frontend and backend visual compil
 3. **Scratch Logic workflows**: Block-based trigger event mappings compiling click triggers directly into ES5 JavaScript workflows.
 4. **Visual ERD Designer**: Entity-relation visual tables creator with standard database datatypes and constraints compiling to clean Prisma Schemas and Express routes.
 5. **Direct Monaco Sandbox**: Inspect and write custom CSS classes and inner HTML, syncing back instantaneously to active layouts.
-6. **Gemini AI Assistant**: Text description prompts translated into beautiful visual layout node streams via a server proxy using `gemini-3.5-flash`.
+6. **AI Assistant**: Text description prompts translated into beautiful visual layout node streams via a server proxy using `open source models`.
 7. **Single-Target Code Compilers**: High-fidelity export bundles delivering pure single-file HTML, Vite-React setups, or whole docker-packaged backend routes.
 
 ## ⚙️ Running Locally & Self-Hosting
