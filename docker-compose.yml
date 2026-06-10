@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  aetherforge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aetherforge_platform
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - APP_URL=http://localhost:3000
+    restart: unless-stopped
+    volumes:
+      - ./aetherforge_project.json:/app/aetherforge_project.json

@@ -1,0 +1,6 @@
+{
+  "name": "AetherForge",
+  "description": "Production-ready open-source frontend and backend low-code visual editor and developer platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
